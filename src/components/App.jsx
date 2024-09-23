@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <NavBar/>
-      <ItemListContainer />
+      <ItemListContainer Welcome={"Preparate para abrir nuevos caminos"} />
    </> 
   )
 }
