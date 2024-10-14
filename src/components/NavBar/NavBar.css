@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #3A6D8C;
+    font-family: 'Roboto', sans-serif; 
+    color: white;
+  }
+
+  .navlist {
+    display: flex;
+    list-style-type: none;
+    background-color: #3A6D8C;
+    justify-content: space-around;
+    text-decoration: none;
+    border-top: 1px white  solid;
+    border-bottom: 1px white solid;
+    font-size: 20px;
+    padding: 2px;
+  }
+  
+  .logo {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: 15vw;
+    margin-right: 5%;
+  }
+
+  .principal {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: center; 
+    
+  }
+
+  .titulos {
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
