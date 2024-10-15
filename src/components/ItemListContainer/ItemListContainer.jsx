@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./ItemListContainer.css";
+import Item from "../Item";
 
 
 function ItemListContainer() {
@@ -16,11 +17,10 @@ function ItemListContainer() {
   }, []); 
 
   return (
-    <ul>
-      {items.map(item => (
-        <li key={item.id}>{item.titulo}</li>
-      ))}
-    </ul>
+
+     <div>
+      <Item items={items}/>
+    </div>
   );
 };
 

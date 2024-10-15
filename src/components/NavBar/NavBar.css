@@ -37,3 +37,8 @@
     font-weight: lighter;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+  }
