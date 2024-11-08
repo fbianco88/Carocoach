@@ -18,10 +18,10 @@ function NavBar () {
             </div>
       
             <div className="navlist">
-                <Link to="/"> Sobre mi</Link>
-                <Link to="/talleres">Talleres</Link>
-                <Link to='/cursos'>Cursos</Link>
-                <Link to='/sesiones'>Sesiones</Link>
+                <Link className="navSection" to="/"> Sobre mi</Link>
+                <Link className="navSection" to="/talleres">Talleres</Link>
+                <Link className="navSection" to='/cursos'>Cursos</Link>
+                <Link className="navSection" to='/sesiones'>Sesiones</Link>
             </div>
         
         </nav>
